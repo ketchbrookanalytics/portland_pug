@@ -1,4 +1,4 @@
-![https://www.ketchbrookanalytics.com](www/ka_logo.jpg)
+![](www/ka_logo.jpg)
 
 <hr>
 
