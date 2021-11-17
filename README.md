@@ -26,7 +26,7 @@ The presentation uses data from [data.ct.gov](https://data.ct.gov) on prison pop
 
 3. The [interactive_viz_example.R](interactive_viz_example.R) script creates a **{plotly}** visualization (which is HTML under the hood)
 
-4. The [CT Prison Population Forecast.pbix](CT Prison Population Forecast.pbix) file contains the Power BI report used in the presentation
+4. The [CT Prison Population Forecast.pbix](CT%20Prison%20Population%20Forecast.pbix) file contains the Power BI report used in the presentation
 
 *** 
 
