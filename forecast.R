@@ -4,7 +4,6 @@
 ## 1.1 Load Packages ----
 
 library(readr, warn.conflicts = FALSE)   # read data from .csv
-# library(here, warn.conflicts = FALSE)   # handle working directory
 library(dplyr, warn.conflicts = FALSE)   # general data prep
 library(lubridate, warn.conflicts = FALSE)   # work with dates
 library(tsibble, warn.conflicts = FALSE)   # work with time series data
