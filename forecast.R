@@ -3,15 +3,19 @@
 
 ## 1.1 Load Packages ----
 
-library(readr, warn.conflicts = FALSE)   # read data from .csv
-library(dplyr, warn.conflicts = FALSE)   # general data prep
-library(lubridate, warn.conflicts = FALSE)   # work with dates
-library(tsibble, warn.conflicts = FALSE)   # work with time series data
-library(forecast, warn.conflicts = FALSE)   # neural net algorithm
-library(ModelMetrics, warn.conflicts = FALSE)   # compute model fit statistics
+library(readr)   # read data from .csv
+library(dplyr)   # general data prep
+library(lubridate)   # work with dates
+library(tsibble)   # work with time series data
+library(forecast)   # neural net algorithm
+library(ModelMetrics)   # compute model fit statistics
 
 
 ## 1.2 Import Data ----
+
+##                       ##
+##    SHOW DATA IN CSV   ##
+##                       ##
 
 # Import historical prison population data
 prison_data <- readr::read_csv(
